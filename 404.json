@@ -1,0 +1,10 @@
+{   
+    "surprise":"warning5.gif", 
+    "title":"P&aacute;gina no encontrada",    
+    "msg":"La p&aacute;gina o el recurso <strong>no existe.</strong> Probablemente el recurso tal y como se haya escrito sea err&oacute;neo o simplemente no exista.",
+    "jumptext":"Volver a la p&aacute;gina",
+    "maximgs":10,
+    "pathimg":"img404",    
+    "jump":"https://audit.kronexilane.org",
+    "logo":false
+}

@@ -1,0 +1,109 @@
+/* 
+  -----------------------------
+   Archivo SASS, Página 404.html
+  ------------------------------
+*/
+
+
+// -- Algunas variables --
+$border-size:20px;
+
+
+// Pantalla completa
+.container-404-full-screen{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  background-color: #D0D0CE;
+  height: 100vh;
+  .main-container{
+    border-radius: $border-size;
+    width: 65%;
+    .error-img{
+      border-radius: $border-size;
+      margin:0;
+      padding: 0;
+      background-color: blueviolet;
+      img{
+        border-right: 1px solid gray;
+        max-width: 100%;
+        height: 100%;
+        border-bottom-left-radius:  $border-size;;
+        border-top-left-radius:  $border-size;;
+      }
+    }
+    .app-name{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 1.3em;
+      font-weight: 600;
+
+    }
+    .app-msg{
+      font-family:'System', sans-serif;
+      font-size: 0.8em;
+      text-align: center;
+      color:red;
+      font-weight: bold;
+    }
+    .login-controls{
+      input[type="text"],input[type="password"]{
+        border:1px solid black;
+        border-radius: 10px;
+        //border-bottom: 1px solid gray;
+        &:focus{
+          outline: none;
+        }
+        &:active{
+          outline:none;
+        }
+        &::placeholder{
+          color:black;
+          font-style:normal;
+          font-weight:300;
+          font-size: small;
+        }
+
+      }
+      input[type="submit"]{
+        //border-radius: 10px;
+        font-size:small;
+        color:white;
+        border-radius: 10px;
+        background-color: #75B0C4;
+        border:1px solid #215D85;
+        &:hover{
+          background-color: #215D85;
+          cursor: pointer;
+        }
+      }
+    }
+
+  }
+}
+
+// Texto de error
+
+.error-text{  
+  text-align:center;
+  
+}
+
+.error-surprise{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.error-back{
+  text-decoration: none;
+  font-weight: 600;
+  &.btn-primary{
+    
+    background-color: #75B0C4;
+  }
+}
+
+
+
+
