@@ -22,6 +22,8 @@ Está aplicación permite personalizar la página 404 de forma simple y elegante
 * 404.css:  Las hojas de estílo en cascada.
 * 404.js: Pequeño programa Javascript que permite controlar la aleatoriedad de la imagen de advertencia, textos, logo y demás parámetros.
 img404/: Carpeta de imagenes (el nombre puede ser este o el parametrizado en el archivo .JSON en el parámetro *pathimg*).
+* 404.json: Archivo json donde residen los parámetros de configuración.
+
 
 
 <a name="funcionamiento"></a>
