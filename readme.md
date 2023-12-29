@@ -48,9 +48,9 @@ http://www.servidor.com/img404
 ### Parámetros
 -   ***surprise***: Texto de interjección o icono de advertencia localizado en *pathimg.*
 -   ***title***: Título de la advertencia.
--   ***msg***: Mensaje de adeventencia.
+-   ***msg***: Mensaje de adevertencia.
 -   ***jumptext***:Texto del botón
--   ***maximgs***: (Número de imagenes-1) que sobre las que se hara la iteración aleatoria. Si hay ocho imagenes deberá ponerse 7 ya que van de la 0 a la 7.
+-   ***maximgs***: (Número de imagenes-1) que sobre las que se hará la iteración aleatoria. Si hay ocho imagenes deberá ponerse 7 ya que van de la 0 a la 7.
 -   ***pathimg***: Camino en el servidor de la carpeta de imagenes en la forma http://www.servidor.com/[carpeta_404]
 -   ***jump***: URL de salto del botón de volver.
 -   ***logo***: true|false activación o no, de la visualización de un archivo adicional de imagen situado también en la carpeta dada por pathimg y que deberá llamarse *logo.png*
@@ -58,5 +58,7 @@ http://www.servidor.com/img404
 ### Observaciones
 Los textos del fichero de configuración JSON que se visualizan en la página admiten texto HTML, de modo que aceptan entre medio tags html que permiten formatear bien el texto, entre ellos los código &xacute; para acentuaciones y otros.
 
-Cada vez que se carga la página de eror se carga aleatoramiente la imagen de *0* a *maximgs-1* y deben tener el siguiente formato:
+Cada vez que se carga la página de error se carga aleatoriamente la imagen de *0* a *maximgs-1* y deben tener el siguiente formato:
     **404_x.jpg**
+
+Siendo x el índice aleatorio que tomará desde 0 hasta maximgs-1
