@@ -70,6 +70,8 @@ Uso este pequeño programa, para la visualización de la página 404 de mis serv
 Pruebe las siguientes direcciones:
 
 https://www.kronexilane.org/esto_no_existe
-https://text.kronexilane.org (sin contenido)
+
+https://test.kronexilane.org (sin contenido)
+
 https://demo.kronexilane.org (sin contenido)
 
