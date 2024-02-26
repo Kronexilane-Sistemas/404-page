@@ -64,3 +64,12 @@ Cada vez que se carga la página de error se carga aleatoriamente la imagen de *
     **404_x.jpg**
 
 Siendo x el índice aleatorio que tomará desde 0 hasta maximgs-1
+
+### Ejemplos
+Uso este pequeño programa, para la visualización de la página 404 de mis servidores.
+Pruebe las siguientes direcciones:
+
+https://www.kronexilane.org/esto_no_existe
+https://text.kronexilane.org (sin contenido)
+https://demo.kronexilane.org (sin contenido)
+
